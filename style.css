@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@400;600;700&display=swap');*{box-sizing:border-box}body{margin:0;background:#080a0d;color:#fff;font-family:'Space Grotesk',Arial,sans-serif}.stage{height:calc(100vh - 62px);display:grid;place-items:center;overflow:hidden}.slide{position:relative;width:min(100vw,calc((100vh - 62px)*16/9));aspect-ratio:16/9;background:#050607;overflow:hidden;box-shadow:0 0 55px #000}.grid{position:absolute;inset:0;background-image:linear-gradient(#15171a 2px,transparent 2px),linear-gradient(90deg,#15171a 2px,transparent 2px);background-size:5% 8.89%;opacity:.62}header{position:absolute;top:5%;left:5%;right:5%;display:flex;justify-content:space-between;color:#0ee2ed;font-weight:700;font-size:clamp(10px,1.15vw,19px);letter-spacing:.13em}header span:last-child{color:#ffde17}.content{position:absolute;inset:19% 7% 21%;display:flex;align-items:center;gap:3%}.copy{width:70%;z-index:2}.eyebrow{color:#ffdc16;font-weight:700;letter-spacing:.14em;font-size:clamp(10px,1.15vw,19px);margin:0 0 3%}h1{font-family:'Press Start 2P',monospace;color:#09dfec;font-size:clamp(21px,3.1vw,52px);line-height:1.35;margin:0 0 4%;text-shadow:3px 3px #006c78}.body,.lines{white-space:pre-line;font-size:clamp(13px,1.7vw,28px);line-height:1.45;margin:0;color:#f7f7f7}.lines p{margin:.25em 0}.footertext{color:#ffde17;letter-spacing:.1em;font-weight:700;margin-top:6%;font-size:clamp(10px,1.2vw,20px)}.memoimg{position:absolute;width:27%;max-height:90%;object-fit:contain;right:0;bottom:0;filter:drop-shadow(0 0 15px #0ddce833);animation:bob 3s ease-in-out infinite}.portraits{width:29%;display:flex;gap:8px;align-items:center}.portraits img{width:100%;aspect-ratio:1;object-fit:cover;border:5px solid #ffde17;box-shadow:10px 10px 0 #05dce8}.portraits.two img{width:48%}.partners .copy,.sponsors .copy,.agenda .copy{width:92%}.partners .body{max-width:90%;line-height:1.7}.skyline{position:absolute;bottom:-1%;left:29%;width:42%;max-height:18%;object-fit:contain;object-position:bottom;image-rendering:pixelated}.number{position:absolute;bottom:5%;right:5%;color:#ffdc16;font-weight:bold;font-size:clamp(9px,1vw,16px)}.forward{animation:enter .55s both}.back{animation:back .55s both}.copy>*{animation:rise .65s both}.copy>*:nth-child(2){animation-delay:.08s}.copy>*:nth-child(3){animation-delay:.16s}@keyframes enter{from{opacity:0;transform:translateX(3%)}to{opacity:1;transform:none}}@keyframes back{from{opacity:0;transform:translateX(-3%)}to{opacity:1;transform:none}}@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}@keyframes bob{50%{transform:translateY(-8px)}}nav{height:62px;display:flex;align-items:center;justify-content:center;gap:12px;color:#aab4b8}button,nav a{border:1px solid #314047;background:#10191d;color:#fff;border-radius:3px;padding:8px 13px;cursor:pointer;text-decoration:none;font:inherit}button:hover,nav a:hover{border-color:#0ee2ed}button:disabled{opacity:.3;cursor:default}@media(prefers-reduced-motion:reduce){*{animation:none!important}}@media(max-width:600px){nav{gap:6px;font-size:12px}button,nav a{padding:7px}.stage{height:calc(100dvh - 62px)}}
+
+/* Reveal controls when the pointer reaches the bottom or a control gains focus. */
+nav { opacity: 0; transition: opacity .2s ease; }
+nav:hover, nav:has(:focus-visible) { opacity: 1; }
+@media (hover: none) { nav { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { nav { transition: none; } }
+
+.skyline { left: 0; bottom: -1%; width: 100%; max-height: none; object-fit: contain; }
+.memo-bubble { position: absolute; z-index: 3; top: 0; right: 0; padding: .7em .9em; background: #ffde17; color: #06171c; border: 3px solid #06171c; box-shadow: 4px 4px 0 #0ee2ed; font-family: "Press Start 2P", monospace; font-size: clamp(7px, .8vw, 13px); line-height: 1.5; }
+.memo-bubble::after { content: ""; position: absolute; bottom: -12px; right: 30%; border-width: 12px 10px 0 0; border-style: solid; border-color: #ffde17 transparent transparent transparent; }
+
+/* Keep typography and spacing proportional to the slide, including letterboxed screens. */
+.slide { container-type: inline-size; }
+header { top: 3%; align-items: center; z-index: 4; font-size: 1.15cqw; }
+.brand-logo { display: block; width: 14cqw; height: 5.5cqw; object-fit: contain; object-position: left center; }
+.content { inset: 17% 7% 24%; z-index: 2; }
+.copy { width: 66%; }
+.eyebrow { font-size: 1.15cqw; }
+h1 { font-size: 3cqw; line-height: 1.35; }
+.body, .lines { font-size: 1.6cqw; }
+.footertext { font-size: 1.1cqw; }
+.partners .body { font-size: 1.35cqw; line-height: 1.55; }
+.skyline { z-index: 1; pointer-events: none; }
+.number { z-index: 3; bottom: 3%; font-size: 1cqw; text-shadow: 1px 1px 3px #000; }
+.memo-area { position: absolute; right: 0; top: 0; bottom: 0; width: 30%; display: flex; align-items: center; justify-content: center; }
+.memo-orbit { position: absolute; width: 85%; aspect-ratio: 1; border: 1px solid #0ee2ed55; border-radius: 50%; background: radial-gradient(circle, #0ee2ed18 0%, #0ee2ed08 52%, transparent 72%); box-shadow: 0 0 0 1.2cqw #0ee2ed08; }
+.memo-area .memoimg { position: relative; right: auto; bottom: auto; width: 82%; max-height: 78%; z-index: 1; object-fit: contain; }
+.memo-bubble { top: 2%; right: 0; font-size: .75cqw; line-height: 1.7; text-align: center; }
+.memo-label { position: absolute; bottom: 1%; color: #0ee2ed; font-size: .8cqw; font-weight: 700; letter-spacing: .18em; }
+.memo-label b { color: #ffde17; }
+
+/* Reveal characters without changing the layout as text appears. */
+.copy > * { animation: none; }
+.typed-char { animation: type-reveal 1ms steps(1, end) both; }
+@keyframes type-reveal { from { opacity: 0; } to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .typed-char { animation: none; opacity: 1; } }
