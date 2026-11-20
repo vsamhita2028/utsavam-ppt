@@ -35,3 +35,14 @@ h1 { font-size: 3cqw; line-height: 1.35; }
 .typed-char { animation: type-reveal 1ms steps(1, end) both; }
 @keyframes type-reveal { from { opacity: 0; } to { opacity: 1; } }
 @media (prefers-reduced-motion: reduce) { .typed-char { animation: none; opacity: 1; } }
+
+/* Anchor the artwork near the controls and keep Memo’s caption with the mascot. */
+.stage { align-items: end; }
+.memo-label { bottom: 9%; text-align: center; line-height: 1.6; }
+.memo-label small { color: #ffde17; font-size: .7em; letter-spacing: .12em; }
+.skyline { bottom: -4.5%; }
+.memo-label { bottom: 3%; }
+
+
+.eyebrow-detail { vertical-align: middle; }
+.partners .body { font-size: 1.12cqw; line-height: 1.55; max-width: 100%; }

@@ -1,22 +1,130 @@
 [
-{"eyebrow":"REACT HYDERABAD PRESENTS","title":"UTSAVAM 2026","body":"A celebration of community, code and one year together","footer":"21 NOVEMBER 2026  ·  DANUBE AUDITORIUM","kind":"cover"},
-{"eyebrow":"08:30 – 10:00","title":"Welcome to Utsavam!","body":"Check in, collect your event essentials and meet the community.","kind":"memo"},
-{"eyebrow":"10:00 – 10:15","title":"React Hyderabad","body":"Welcome to Utsavam\nCelebrating one year of our community","kind":"memo"},
-{"eyebrow":"THE DAY AHEAD","title":"Today at Utsavam","lines":["10:15  Keynote + morning talks","12:15  Lunch","13:00  Afternoon talks + panel","14:50  Closing notes","15:20  Tea + networking"],"kind":"agenda"},
-{"eyebrow":"10:15 – 10:40  ·  KEYNOTE","title":"Tech Mahindra Keynote","body":"Dr. Nagarjun Malladi\nVice President & Group Delivery Head","image":"speakers/nagarjun-malladi.webp"},
-{"eyebrow":"10:40 – 11:20  ·  CATALYST BY ZOHO","title":"AI Solved Coding. Shipping Is the New Bottleneck","body":"Vignesh Krishnan\nDeveloper Relations Engineer","image":"speakers/vignesh-krishnan.webp"},
-{"eyebrow":"11:20 – 11:35","title":"Break time","body":"Take a short break and connect with fellow attendees.","kind":"memo"},
-{"eyebrow":"11:35 – 12:15  ·  REZOOMEX","title":"Becoming an AI Product Builder","body":"Skills, mindset and a future-ready approach\n\nAnuja Dhopate & Sanika Bramhe","image":"speakers/anuja-dhopate.webp","image2":"speakers/sanika-bramhe.webp"},
-{"eyebrow":"12:15 – 13:00","title":"Lunch break","body":"Recharge over lunch and conversations with the community.","kind":"memo"},
-{"eyebrow":"13:00 – 13:30  ·  ELASTIC RUM","title":"The 3-Second Mystery","body":"Uncovering hidden performance issues with Elastic RUM\n\nAakash Dhakshnamoorthy  ·  AI/ML Engineer","image":"speakers/aakash-d.webp"},
-{"eyebrow":"13:30 – 13:55  ·  SARAL AI","title":"Knowledge Without Barriers","body":"Democratising access to research\n\nSahas Vivek  ·  Developer","image":"speakers/sahas-vivek.webp"},
-{"eyebrow":"13:55 – 14:10","title":"Goavo","body":"For teams that grow by gathering people","kind":"memo"},
-{"eyebrow":"14:10 – 14:50  ·  PANEL DISCUSSION","title":"React + AI","body":"Hari Pavan   ·   Vignesh Krishnan\nAnuja Dhopate\n\nModerator: Shlok Srivastava","kind":"panel"},
-{"eyebrow":"THANK YOU","title":"Our sponsors","lines":["GOLD SPONSORS","Catalyst by Zoho     ·     Rezoomex","","IN-KIND SPONSOR","Elastic"],"kind":"sponsors"},
-{"eyebrow":"THANK YOU","title":"Community partners","body":"HYD DAO  ·  NextGen Nexus  ·  GDG Hyderabad  ·  Referral Community  ·  elevateU.ai India  ·  AI Community Hyderabad  ·  AI-SEC  ·  HYD Tech Community  ·  Student Tech & Careers  ·  Zelvora  ·  PgHyd  ·  Kramers  ·  MANUU Connect  ·  LinkedINspire","kind":"partners"},
-{"eyebrow":"THANK YOU","title":"Community partners","body":"The Data & AI Guild  ·  MDFCH  ·  Hackways  ·  Growsphere  ·  COPEX  ·  Knowvy Technologies  ·  DevCatalyst  ·  Syntaxo  ·  TechSnap  ·  DevRel Squad  ·  AI Yatra  ·  Postgres Women India  ·  VyREKA  ·  Microsoft AI Innovators Hub","kind":"partners"},
-{"eyebrow":"THANK YOU","title":"Ecosystem partners","body":"The Orbit Community  ·  Elastic User Group Hyderabad  ·  FreshGradPrep  ·  Ignite HQ  ·  Evaluators","kind":"partners"},
-{"eyebrow":"14:50 – 15:20","title":"Closing notes","body":"Celebrating our community, challenge winners and the people who made today possible.","kind":"memo"},
-{"eyebrow":"15:20 – 17:00","title":"Tea + networking","body":"Stay for tea, meet someone new and continue the conversation.","kind":"memo"},
-{"eyebrow":"REACT HYDERABAD","title":"Thank you!","body":"See you at the next community gathering.","footer":"UTSAVAM 2026","kind":"cover"}
+  {
+    "eyebrow": "REACT HYDERABAD PRESENTS",
+    "title": "UTSAVAM 2026",
+    "body": "A celebration of community, code and one year together",
+    "footer": "21 NOVEMBER 2026  ·  DANUBE AUDITORIUM",
+    "kind": "cover"
+  },
+  {
+    "eyebrow": "08:30 – 10:00",
+    "title": "Welcome to Utsavam!",
+    "body": "Check in, collect your event essentials and meet the community.",
+    "kind": "memo"
+  },
+  {
+    "eyebrow": "10:00 – 10:15",
+    "title": "React Hyderabad",
+    "body": "Welcome to Utsavam\nCelebrating one year of our community",
+    "kind": "memo"
+  },
+  {
+    "eyebrow": "THE DAY AHEAD",
+    "title": "Today at Utsavam",
+    "lines": [
+      "10:15  Keynote + morning talks",
+      "12:15  Lunch",
+      "13:00  Afternoon talks + panel",
+      "14:50  Closing notes",
+      "15:20  Tea + networking"
+    ],
+    "kind": "agenda"
+  },
+  {
+    "eyebrow": "10:15 – 10:40  ·  KEYNOTE",
+    "title": "Tech Mahindra Keynote",
+    "body": "Dr. Nagarjun Malladi\nVice President & Group Delivery Head",
+    "image": "speakers/nagarjun-malladi.webp"
+  },
+  {
+    "eyebrow": "10:40 – 11:20  ·  CATALYST BY ZOHO",
+    "title": "AI Solved Coding. Shipping Is the New Bottleneck",
+    "body": "Vignesh Krishnan\nDeveloper Relations Engineer",
+    "image": "speakers/vignesh-krishnan.webp"
+  },
+  {
+    "eyebrow": "11:20 – 11:35",
+    "title": "Break time",
+    "body": "Take a short break and connect with fellow attendees.",
+    "kind": "memo"
+  },
+  {
+    "eyebrow": "11:35 – 12:15  ·  REZOOMEX",
+    "title": "Becoming an AI Product Builder",
+    "body": "Skills, mindset and a future-ready approach\n\nAnuja Dhopate\nHead (India) – Partnerships & Talent Networks",
+    "image": "speakers/anuja-dhopate.webp"
+  },
+  {
+    "eyebrow": "12:15 – 13:00",
+    "title": "Lunch break",
+    "body": "Recharge over lunch and conversations with the community.",
+    "kind": "memo"
+  },
+  {
+    "eyebrow": "13:00 – 13:30  ·  ELASTIC RUM",
+    "title": "The 3-Second Mystery",
+    "body": "Uncovering hidden performance issues with Elastic RUM\n\nAakash Dhakshnamoorthy  ·  AI/ML Engineer",
+    "image": "speakers/aakash-d.webp"
+  },
+  {
+    "eyebrow": "13:30 – 13:55  ·  SARAL AI",
+    "title": "Knowledge Without Barriers",
+    "body": "Democratising access to research\n\nSahas Vivek  ·  Developer",
+    "image": "speakers/sahas-vivek.webp"
+  },
+  {
+    "eyebrow": "13:55 – 14:10",
+    "title": "Goavo",
+    "body": "For teams that grow by gathering people",
+    "kind": "memo"
+  },
+  {
+    "eyebrow": "14:10 – 14:50  ·  PANEL DISCUSSION",
+    "title": "React + AI",
+    "body": "Hari Pavan   ·   Vignesh Krishnan\nAnuja Dhopate\n\nModerator: Shlok Srivastava",
+    "kind": "panel"
+  },
+  {
+    "eyebrow": "THANK YOU",
+    "title": "Our sponsors",
+    "lines": [
+      "GOLD SPONSORS",
+      "Catalyst by Zoho     ·     Rezoomex",
+      "",
+      "IN-KIND SPONSOR",
+      "Elastic"
+    ],
+    "kind": "sponsors"
+  },
+  {
+    "eyebrow": "THANK YOU",
+    "title": "Community partners",
+    "body": "HYD DAO  ·  NextGen Nexus  ·  GDG Hyderabad  ·  Referral Community  ·  elevateU.ai India  ·  AI Community Hyderabad  ·  AI-SEC  ·  HYD Tech Community  ·  Student Tech & Careers  ·  Zelvora  ·  PgHyd  ·  Kramers  ·  MANUU Connect  ·  LinkedINspire  ·  The Data & AI Guild  ·  MDFCH  ·  Hackways  ·  Growsphere  ·  COPEX  ·  Knowvy Technologies  ·  DevCatalyst  ·  Syntaxo  ·  TechSnap  ·  DevRel Squad  ·  AI Yatra  ·  Postgres Women India  ·  VyREKA  ·  Microsoft AI Innovators Hub",
+    "kind": "partners"
+  },
+  {
+    "eyebrow": "THANK YOU",
+    "title": "Ecosystem partners",
+    "body": "The Orbit Community  ·  Elastic User Group Hyderabad  ·  FreshGradPrep  ·  Ignite HQ  ·  Evaluators",
+    "kind": "partners"
+  },
+  {
+    "eyebrow": "14:50 – 15:20",
+    "title": "Closing notes",
+    "body": "Celebrating our community, challenge winners and the people who made today possible.",
+    "kind": "memo"
+  },
+  {
+    "eyebrow": "15:20 – 17:00",
+    "title": "Tea + networking",
+    "body": "Stay for tea, meet someone new and continue the conversation.",
+    "kind": "memo"
+  },
+  {
+    "eyebrow": "REACT HYDERABAD",
+    "title": "Thank you!",
+    "body": "See you at the next community gathering.",
+    "footer": "UTSAVAM 2026",
+    "kind": "cover"
+  }
 ]
