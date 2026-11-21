@@ -73,3 +73,18 @@ h1 { font-size: 3cqw; line-height: 1.35; }
 .ecosystem-logos .partner-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1.5cqw; margin-top: 3cqw; }
 .ecosystem-logos .partner-logo { height: 8cqw; padding: 1cqw; }
 .ecosystem-logos .partner-item { font-size: .85cqw; }
+
+.cover-sponsors { display: flex; gap: 1.4cqw; margin-top: 2cqw; }
+.cover-sponsor-group > span { display: block; color: #ffde17; font-size: .65cqw; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; margin-bottom: .4cqw; }
+.cover-sponsor-group > div { display: flex; gap: .5cqw; }
+.cover-sponsor-logo { display: flex; align-items: center; justify-content: center; width: 9cqw; height: 3cqw; background: #fff; padding: .4cqw .6cqw; }
+.cover-sponsor-logo img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.first-slide .copy { width: 52%; }
+.first-slide .cover-sponsors { position: absolute; right: 0; top: 2%; bottom: 2%; width: 40%; display: flex; flex-direction: column; justify-content: center; gap: 1.5cqw; margin: 0; }
+.first-slide .cover-sponsor-group > span { font-size: .9cqw; margin-bottom: .6cqw; }
+.first-slide .cover-sponsor-group > div { gap: .8cqw; }
+.first-slide .cover-sponsor-logo { width: 17cqw; height: 6cqw; padding: .8cqw 1cqw; border: .15cqw solid #ffde17; box-shadow: .3cqw .3cqw 0 #05a7b2; }
+.first-slide .cover-sponsor-group:last-child .cover-sponsor-logo { width: 17cqw; }
+.header-sponsors { display: flex; justify-content: center; align-items: center; gap: .45cqw; margin-left: auto; margin-right: 2cqw; }
+.header-sponsor-logo { display: flex; align-items: center; justify-content: center; width: 6cqw; height: 2.4cqw; padding: .3cqw .4cqw; background: #fff; }
+.header-sponsor-logo img { max-width: 100%; max-height: 100%; object-fit: contain; }
