@@ -46,3 +46,12 @@ h1 { font-size: 3cqw; line-height: 1.35; }
 
 .eyebrow-detail { vertical-align: middle; }
 .partners .body { font-size: 1.12cqw; line-height: 1.55; max-width: 100%; }
+
+/* Sponsor logos sit on light cards to preserve each brand's original colors. */
+.sponsors .copy { width: 100%; }
+.sponsors h1 { margin-bottom: 3%; }
+.sponsor-groups { display: flex; align-items: flex-start; gap: 3cqw; }
+.sponsor-group h2 { margin: 0 0 1cqw; color: #ffde17; font-size: 1.05cqw; letter-spacing: .14em; text-transform: uppercase; }
+.sponsor-logos { display: flex; gap: 1.2cqw; }
+.sponsor-card { width: 20cqw; height: 7cqw; display: flex; align-items: center; justify-content: center; padding: 1.1cqw 1.4cqw; background: #fff; border: .18cqw solid #ffde17; box-shadow: .35cqw .35cqw 0 #05a7b2; }
+.sponsor-card img { display: block; max-width: 100%; max-height: 100%; object-fit: contain; }
