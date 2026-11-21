@@ -19,16 +19,11 @@
     "kind": "memo"
   },
   {
-    "eyebrow": "THE DAY AHEAD",
-    "title": "Today at Utsavam",
-    "lines": [
-      "10:15  Keynote + morning talks",
-      "12:15  Lunch",
-      "13:00  Afternoon talks + panel",
-      "14:50  Closing notes",
-      "15:20  Tea + networking"
-    ],
-    "kind": "agenda"
+    "eyebrow": "WITH GRATITUDE",
+    "title": "Thank you, Tech Mahindra",
+    "body": "Thank you for supporting tech communities across Hyderabad and Utsavam 2026.",
+    "kind": "tech-thanks",
+    "logo": "partners/tech-mahindra.svg"
   },
   {
     "eyebrow": "THANK YOU",
@@ -58,6 +53,164 @@
         ]
       }
     ]
+  },
+  {
+    "eyebrow": "THANK YOU",
+    "title": "Ecosystem partners",
+    "kind": "ecosystem-logos",
+    "partnerLogos": [
+      {
+        "name": "The Orbit Community",
+        "image": "partners/orbit-community.png"
+      },
+      {
+        "name": "Elastic User Group Hyderabad",
+        "image": "partners/elastic-user-group-hyderabad.png"
+      },
+      {
+        "name": "FreshGradPrep",
+        "image": "partners/fresh-grad-prep.png"
+      },
+      {
+        "name": "Ignite HQ",
+        "image": "partners/ignite-hq.png"
+      },
+      {
+        "name": "Evaluators",
+        "image": "partners/evaluators.png"
+      }
+    ]
+  },
+  {
+    "eyebrow": "THANK YOU",
+    "title": "Community partners",
+    "kind": "community-logos",
+    "partnerLogos": [
+      {
+        "name": "HYD DAO",
+        "image": "community-partners/hyd-dao.png"
+      },
+      {
+        "name": "NextGen Nexus",
+        "image": "community-partners/nextgen-nexus.png"
+      },
+      {
+        "name": "GDG Hyderabad",
+        "image": "community-partners/gdg-hyderabad.png"
+      },
+      {
+        "name": "Referral Community",
+        "image": "community-partners/referral-community.png"
+      },
+      {
+        "name": "elevateU.ai India",
+        "image": "community-partners/elevateu-ai.png"
+      },
+      {
+        "name": "AI Community Hyderabad",
+        "image": "community-partners/ai-community-hyderabad.png"
+      },
+      {
+        "name": "AI-SEC",
+        "image": "community-partners/ai-sec.png"
+      },
+      {
+        "name": "HYD Tech Community",
+        "image": "community-partners/hyd-tech-community.png"
+      },
+      {
+        "name": "Student Tech & Careers",
+        "image": "community-partners/student-tech-careers.png"
+      },
+      {
+        "name": "Zelvora",
+        "image": "community-partners/zelvora.png"
+      },
+      {
+        "name": "PgHyd",
+        "image": "community-partners/pghyd.png"
+      },
+      {
+        "name": "Kramers",
+        "image": "community-partners/kramers.png"
+      },
+      {
+        "name": "MANUU Connect",
+        "image": "community-partners/manuu-connect.png"
+      },
+      {
+        "name": "LinkedINspire",
+        "image": "community-partners/linkedinspire.png"
+      },
+      {
+        "name": "The Data & AI Guild",
+        "image": "community-partners/data-ai-guild.png"
+      },
+      {
+        "name": "MDFCH",
+        "image": "community-partners/mdfch.png"
+      },
+      {
+        "name": "Hackways",
+        "image": "community-partners/hackways.png"
+      },
+      {
+        "name": "Growsphere",
+        "image": "community-partners/growsphere.png"
+      },
+      {
+        "name": "COPEX",
+        "image": "community-partners/copex.png"
+      },
+      {
+        "name": "Knowvy Technologies",
+        "image": "community-partners/knowvy.png"
+      },
+      {
+        "name": "DevCatalyst",
+        "image": "community-partners/devcatalyst.png"
+      },
+      {
+        "name": "Syntaxo",
+        "image": "community-partners/syntaxo.png"
+      },
+      {
+        "name": "TechSnap",
+        "image": "community-partners/techsnap.png"
+      },
+      {
+        "name": "DevRel Squad",
+        "image": "community-partners/devrel-squad.png"
+      },
+      {
+        "name": "AI Yatra",
+        "image": "community-partners/ai-yatra.png"
+      },
+      {
+        "name": "Postgres Women India",
+        "image": "community-partners/postgres-women-india.png"
+      },
+      {
+        "name": "VyREKA",
+        "image": "community-partners/vyreka.png"
+      },
+      {
+        "name": "Microsoft AI Innovators Hub",
+        "image": "community-partners/microsoft-ai-innovators-hub.png"
+      }
+    ]
+  },
+  {
+    "eyebrow": "THE DAY AHEAD",
+    "title": "Today at Utsavam",
+    "lines": [
+      "10:15  Keynote + morning talks",
+      "12:15  Lunch",
+      "13:00  Afternoon talks + panel",
+      "14:50  Closing notes",
+      "15:20  Tea + networking"
+    ],
+    "kind": "agenda"
   },
   {
     "eyebrow": "10:15 – 10:40  ·  KEYNOTE",
@@ -112,18 +265,6 @@
     "title": "React + AI",
     "body": "Hari Pavan   ·   Vignesh Krishnan\nAnuja Dhopate\n\nModerator: Shlok Srivastava",
     "kind": "panel"
-  },
-  {
-    "eyebrow": "THANK YOU",
-    "title": "Community partners",
-    "body": "HYD DAO  ·  NextGen Nexus  ·  GDG Hyderabad  ·  Referral Community  ·  elevateU.ai India  ·  AI Community Hyderabad  ·  AI-SEC  ·  HYD Tech Community  ·  Student Tech & Careers  ·  Zelvora  ·  PgHyd  ·  Kramers  ·  MANUU Connect  ·  LinkedINspire  ·  The Data & AI Guild  ·  MDFCH  ·  Hackways  ·  Growsphere  ·  COPEX  ·  Knowvy Technologies  ·  DevCatalyst  ·  Syntaxo  ·  TechSnap  ·  DevRel Squad  ·  AI Yatra  ·  Postgres Women India  ·  VyREKA  ·  Microsoft AI Innovators Hub",
-    "kind": "partners"
-  },
-  {
-    "eyebrow": "THANK YOU",
-    "title": "Ecosystem partners",
-    "body": "The Orbit Community  ·  Elastic User Group Hyderabad  ·  FreshGradPrep  ·  Ignite HQ  ·  Evaluators",
-    "kind": "partners"
   },
   {
     "eyebrow": "14:50 – 15:20",

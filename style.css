@@ -55,3 +55,21 @@ h1 { font-size: 3cqw; line-height: 1.35; }
 .sponsor-logos { display: flex; gap: 1.2cqw; }
 .sponsor-card { width: 20cqw; height: 7cqw; display: flex; align-items: center; justify-content: center; padding: 1.1cqw 1.4cqw; background: #fff; border: .18cqw solid #ffde17; box-shadow: .35cqw .35cqw 0 #05a7b2; }
 .sponsor-card img { display: block; max-width: 100%; max-height: 100%; object-fit: contain; }
+
+.tech-thanks .copy { width: 60%; }
+.tech-thanks h1 { font-size: 2.7cqw; }
+.tech-thanks .body { max-width: 95%; }
+.thankyou-logo { width: 33%; flex-shrink: 0; display: flex; align-items: center; justify-content: center; padding: 2.5cqw 1.5cqw; background: #fff; border: .18cqw solid #ffde17; box-shadow: .4cqw .4cqw 0 #05a7b2; }
+.thankyou-logo img { width: 100%; height: auto; display: block; }
+
+.community-logos .content, .ecosystem-logos .content { inset: 15% 6% 22%; align-items: flex-start; }
+.community-logos .copy, .ecosystem-logos .copy { width: 100%; }
+.community-logos .eyebrow, .ecosystem-logos .eyebrow { margin-bottom: 1%; }
+.community-logos h1, .ecosystem-logos h1 { font-size: 2.4cqw; margin-bottom: 1.5%; }
+.partner-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: .7cqw 1cqw; }
+.partner-item { min-width: 0; text-align: center; color: #f4f7f7; font-size: .55cqw; line-height: 1.15; font-weight: 600; }
+.partner-logo { display: flex; justify-content: center; align-items: center; height: 3.8cqw; margin-bottom: .25cqw; padding: .35cqw; background: #fff; }
+.partner-logo img { display: block; max-width: 100%; max-height: 100%; object-fit: contain; }
+.ecosystem-logos .partner-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1.5cqw; margin-top: 3cqw; }
+.ecosystem-logos .partner-logo { height: 8cqw; padding: 1cqw; }
+.ecosystem-logos .partner-item { font-size: .85cqw; }
